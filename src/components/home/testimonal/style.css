@@ -1,0 +1,63 @@
+.testimonal .items {
+    padding: 30px;
+    transition: .5s;
+}
+
+.testimonal .items .shadow {
+    background-color: #fff;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.testimonal .img {
+    position: relative;
+}
+
+.testimonal img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.shadow {
+    background-color: #fff;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.testimonal i {
+    background-color: #1eb2a6;
+    bottom: 0;
+    color: #fff;
+    left: 60px;
+    position: absolute;
+}
+
+.testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testimonal .name span {
+    color: #1eb2a6;
+}
+
+.testimonal p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+}
+
+.testimonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+.testimonal .items:hover p,
+.testimonal .items:hover span 
+ {
+    color: #fff;
+}
+
+.testimonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+}
